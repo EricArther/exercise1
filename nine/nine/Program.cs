@@ -24,7 +24,7 @@ namespace nine
                     return;
             }
 
-            Console.ReadLine();
+            //Console.ReadLine();
         }
 
         public static void One()
@@ -34,7 +34,7 @@ namespace nine
             Console.Write("Second Number: ");
             int second1 = int.Parse(Console.ReadLine());
             Console.WriteLine($"{first1} + {second1} = {first1 + second1}");
-            //Console.ReadLine();
+            Console.ReadLine();
         }
 
         public static void Two()
@@ -44,6 +44,7 @@ namespace nine
             Console.Write("Second Number: ");
             int second1 = int.Parse(Console.ReadLine());
             Console.WriteLine($"{first1} / {second1} = {first1 / second1}");
+            Console.ReadLine();
         }
 
         public static void Three()
@@ -53,6 +54,7 @@ namespace nine
             Console.Write("Second Number: ");
             int second1 = int.Parse(Console.ReadLine());
             Console.WriteLine($"{first1} * {second1} = {first1 * second1}");
+            Console.ReadLine();
         }
 
 
