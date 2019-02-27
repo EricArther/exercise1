@@ -8,7 +8,7 @@ namespace Ten
         {
             Animal[] animals = new Animal[5];
 
-            for(int i = 0; i < 5; i++)
+            for (int i = 0; i < 5; i++)
             {
                 animals[i] = new Animal();
                 animals[i].id = i;
@@ -24,7 +24,7 @@ namespace Ten
 
             Console.WriteLine();
 
-            for(int i = 0; i<5; i++)
+            for (int i = 0; i < 5; i++)
             {
                 animals[i].Display();
                 Console.WriteLine();
